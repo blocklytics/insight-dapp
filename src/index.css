@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: "GT Haptik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.logo {
+	margin: 0;
+	font-size: 36px;
+	color: #FFC864; /* FOAM Yellow */
+	font-weight: 500;
+}
+
+.logo img {
+  margin-left: -2px;
+  vertical-align: middle;
+}
+
+.hero-image {
+	padding-top: 24px;
+	max-width: 100%;
+}
+
+.arrow-left {
+	position: absolute;
+	left: -12px;
+  width: 0; 
+  height: 0; 
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  
+  border-right: 12px solid white; /* FOAM Dark Silver */
+}
+
+.tooltip-text {
+	font-size: 18px;
+	color: #878c96; /* FOAM Dark Silver */
+	line-height: 145.23%;
+	letter-spacing: -0.03em;
+  width: 250px;
+  background-color: #FFFFFF;
+  border: 2px solid #F2F2F2;
+  text-shadow: none;
+  text-align: left;
+  padding: 18px 18px 24px 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  z-index: 1;
+  margin-left: 115px;
+  top: 128px;
+}
+
+.menu {
+	background-color: #4594FF !important; /* FOAM Blue */
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25) !important;
+}
+
+.menu-item {
+	margin: 0;
+	font-size: 24px;
+	line-height: 145.23%;
+	letter-spacing: -0.03em;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+.section-0 {
+	min-height: 720px;
+	height: 80vh;
+	padding-top: 92px;
+	color: #FFFFFF;
+	background-color: #4594FF; /* FOAM Blue */
+}
+
+.section-1 {
+	min-height: 644px;
+	height: 80vh;
+	color: #878c96; /* FOAM Dark Silver */
+}
+
+.section-2 {
+  min-height: 750px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	color: #FFFFFF;
+	background-color: #4594FF; /* FOAM Blue */
+}
+
+.footer {
+	background-color: #4594FF; /* FOAM Blue */
+	padding: 150px 0px;
+}
+
+.footer-logo {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.map {
+	height: 60% !important;
+}
+
+.map-info-box {
+	width: 180px;
+	background: white;
+	position: relative;
+	top: -96px;
+	left: 16px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	text-align: left;
+	padding: 4px 8px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 68px;
+	line-height: 145.23%;
+	letter-spacing: -0.03em;
+	font-weight: 500;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding-top: 40px;
+	font-size: 40px;
+	line-height: 145.23%;
+	letter-spacing: -0.03em;
+	font-weight: 500;
+}
+
+p, a {
+	margin-top: 18px;
+	font-size: 24px;
+	line-height: 145.23%;
+	letter-spacing: -0.03em;
+	text-decoration: none;
+	color: #D8DCDE;
+}
+
+a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+ 
+button, a.button {
+	cursor: pointer;
+	padding: 18px 36px;
+	border: none;
+	background: #12C35C; /* FOAM Green */
+	color: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	text-align: center;
+	letter-spacing: -0.03em;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 145.23%;
+	outline: none;
+}
+
+a.button:hover, button:hover {
+	transform: scale(1.02);
+	box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+	text-decoration: none;
+	opacity: 1.0;
+}
+
+a.button:active, button:active {
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+button:disabled {
+	box-shadow: none;
+	background: #BCBFC9;
+	color: rgba(255, 255, 255, 0.5);
+	cursor: default;
+}
+
+button:disabled:hover {
+	transform: none;
+}
+
+.foam-pink {
+  color: #FCD1C6
+}
+
+.hero-emoji {
+	font-size: 72px;
+}
+
+@media (max-width: 600px){
+
+	.menu-item {
+		font-size: 18px;
+	}
+
+	.tooltip-text {
+		display: none;
+	}
+	
+	.section-0 {
+		min-height: 650px;
+	}
+	
+	.section-1 {
+		min-height: 700px;
+	}
+
+	h1 {
+		font-size: 48px;
+		line-height: 1.2; 
+	}
+	
+	h2 {
+		font-size: 36px;
+		line-height: 1.2;
+	}
+
+}
+
+@media (max-width: 1050px) {
+
+	.tooltip-text {
+		display: none;
+	}
+}
+
